@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+
+
+
+.gente {
+    display: flex;
+    padding: 0px;
+}
+
+.centro {
+    text-align: center;
+    padding: 15%;
+}
+
+.boton {
+    background-color: #A491D2;
+    display: flex;
+    padding: 1em;
+    border: none;
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 5px
+}
+
+.card-body {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BEC1BB;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+
+}
+
+.fa {
+    color:black;
+}
+
+.usuarios {
+
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 200px;
+
+
+}
+
+
+.fotomaria {
+    border-radius: 90%;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textomaria {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.photo {
+    display: flex;
+}
+
+.foto {
+    border-radius: 90%;
+    width: 50px;
+    display: flex;
+}
+
+.texto {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.usuarios {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 500px;
+    border: solid #BEC1BB 1px;
+}
+
+.usuario {
+    border: solid 1px #BEC1BB;
+
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.logo {
+    width: 250px;
+}
+
+.slogan {
+    font-size: 50px;
+}
+
+.frase {
+    font-size: 20px;
+}
